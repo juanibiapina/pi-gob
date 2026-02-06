@@ -59,7 +59,7 @@ function renderProgress(startedAt: string, avgDurationMs: number, theme: Theme):
  */
 function renderJob(job: JobResponse, theme: Theme): string {
 	const dot = theme.fg("success", "●");
-	const cmd = theme.fg("text", job.command.join(" "));
+	const cmd = theme.fg("text", job.description || job.command.join(" "));
 
 	if (job.avg_duration_ms > 0) {
 		const info = renderProgress(job.started_at, job.avg_duration_ms, theme);
