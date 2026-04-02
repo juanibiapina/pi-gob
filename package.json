@@ -43,7 +43,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.9",
-		"@mariozechner/pi-coding-agent": "^0.62.0",
+		"@mariozechner/pi-coding-agent": "^0.64.0",
 		"@types/node": "^25.5.0",
 		"typescript": "^6.0.2"
 	}
