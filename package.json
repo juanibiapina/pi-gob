@@ -1,6 +1,6 @@
 {
 	"name": "@juanibiapina/pi-gob",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"description": "Pi extension for managing gob background jobs",
 	"type": "module",
 	"main": "dist/index.js",
