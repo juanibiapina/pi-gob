@@ -42,8 +42,8 @@
 		"@mariozechner/pi-tui": "*"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.4.12",
-		"@mariozechner/pi-coding-agent": "^0.69.0",
+		"@biomejs/biome": "2.4.15",
+		"@mariozechner/pi-coding-agent": "^0.73.1",
 		"@types/node": "^25.5.0",
 		"typescript": "^6.0.2"
 	}
