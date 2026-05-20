@@ -3,17 +3,11 @@
 	"version": "0.6.0",
 	"description": "Pi extension for managing gob background jobs",
 	"type": "module",
-	"main": "dist/index.js",
-	"types": "./dist/index.d.ts",
 	"scripts": {
-		"clean": "rm -rf dist",
-		"build": "tsc -p tsconfig.build.json",
-		"dev": "tsc -p tsconfig.build.json --watch",
-		"check": "biome check --write --error-on-warnings . && tsc --noEmit",
-		"prepublishOnly": "npm run clean && npm run build && npm run check"
+		"check": "biome check --write --error-on-warnings . && tsc --noEmit"
 	},
 	"files": [
-		"dist/**/*",
+		"src/**/*",
 		"README.md"
 	],
 	"keywords": [
@@ -25,7 +19,7 @@
 	],
 	"pi": {
 		"extensions": [
-			"./dist/index.js"
+			"./src/index.ts"
 		]
 	},
 	"author": "Juan Ibiapina",
@@ -36,10 +30,6 @@
 	},
 	"engines": {
 		"node": ">=20.0.0"
-	},
-	"peerDependencies": {
-		"@earendil-works/pi-coding-agent": "*",
-		"@earendil-works/pi-tui": "*"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.15",
