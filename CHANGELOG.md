@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Prefer job description over command in segment display (thanks @HazAT for the idea in PR #1)
+- Migrated from `@mariozechner/pi-coding-agent` and `@mariozechner/pi-tui` to `@earendil-works/pi-coding-agent` and `@earendil-works/pi-tui`
 
 ## [0.5.0] - 2026-03-23
 
